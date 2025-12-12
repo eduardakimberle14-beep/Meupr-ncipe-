@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love.com⛏️💖 </title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<script>
+    function openTab(evt, tabName) {
+        let i, tabcontent, tablinks;
+
+        // 1. Esconde todos os conteúdos de abas
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // 2. Remove a classe 'active' de todos os botões
+        tablinks = document.getElementsByClassName("tab-link");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // 3. Mostra o conteúdo da aba atual e adiciona 'active' ao botão
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    // Configura a aba 'Historia' para abrir por padrão
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelector(".tab-link").click();
+    });
+
+</script>
+
+<body>
+
+<header class="hero-section">
+        <h1>Para o meu principe👑</h1>
+        <h2>Uma pequena Homenagem só para você,amor</h2>
+    </header>
+<div class="tabs-container">
+    
+   <div class="tab-buttons">
+    <button class="tab-link active" onclick="openTab(event, 'Fofura')">Textinho fofo</button>
+
+    <button class="tab-link active" onclick="openTab(event, 'Fotos')">Nossas fotos❤️</button>
+
+    <button class="tab-link" onclick="openTab(event, 'Declaracao')">Declaração 💌</button>
+    
+</div>
+
+<div id="Fofura" class="tab-content" style="display:none;">
+        <p style="font-size: 1.2em; color: #ff8aae; font-weight: bold;">
+          <h3>Tudo com você é leve</h3>
+
+            Amor, estar com você é uma das melhores coisas que a vida pôde me proporcionar,
+           tudo com você é leve e cheio de cores, tudo é tão colorido, 
+           tão alegre, meu mundo transborda de felicidade quando te encontro. Agradeço
+           a Deus pq ele te colocou na minha vida, porque eu descobri que com você até a caminhada 
+           com ele é leve meu amor, obrigada por sempre me fazer feliz e me fazer sorrir, obrigada
+          por estar comigo nos meus dias mais sombrios. LOVE U❤️
+
+            <br><br>
+            Com todo o meu amor, Dudeka.
+          </p>
+ </div>
+
+    <div id="Fotos" class="tab-content" style="display:none;">
+        <h3>Nossas Melhores Memórias</h3>
+        <div class="galeria-grid">
+         <figure>
+            <img src="foto1.jpg" alt="Nosso primeiro dia dos namorados💖">
+            <figcaption>Nosso primeiro dia dos namorados💖</figcaption>
+            </figure>
+
+            <figure>
+            <img src="foto2.jpg" alt="Dia dos somos jovens, bem juntinhos❤️">
+            <figcaption>Dia dos somos jovens, bem juntinhos❤️</figcaption>
+             </figure>
+
+           <figure>
+            <img src="foto3.jpg" alt="Teu aniversário kkkk">
+            <figcaption>Teu aniversário kkkk</figcaption>
+           </figure>
+
+         <figure>
+            <img src="foto4.jpg" alt="Date na pracinha com a Bella">
+            <figcaption>Date na pracinha com a Bella</figcaption>
+          </figure>
+          </div>
+
+        </div> 
+
+<div id="Declaracao" class="tab-content" style="display:none;">
+        <h3>Uma Mensagem Secreta</h3>
+        <p style="font-size: 1.2em; color: #ff8aae; font-weight: bold;">
+            Meu amorzinho, eu te amo muitão. 
+            Você é meu neném, minha vida e meu tudo,
+           eu te amo mais que chocolate nego, 
+           obrigada por me fazer a mulher mais feliz do mundooo🗺️❤️❤️‍🩹
+        </p>
+    </div>    
+
+   </div>  <footer>
+
+        <p>Feito com carinho e muitos corações pela melhor mulher do mundo. 💕</p>
+    </footer>
+
+</body>
+</html>
